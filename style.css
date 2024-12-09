@@ -1,0 +1,38 @@
+
+:root{--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, 0.9)
+}
+body{background-color: #24353F;
+    font-family:monospace;
+}
+.parent,.parent2,.parent3{background-color: #24353F;}
+.parent3,#signup-page,#login-page{
+background-color: #24353F;
+}
+#home-page{background-color: #24353F;
+    height: 100vh; 
+    display: none;
+}
+.parent3{height: 80% !important;}
+.parent{
+}
+h1,button{color: #17A2B8 !important;}
+h6 ,a{color: white !important;}
+input{background-color:#24353F !important;
+color: white ;
+}
+button{
+border-color:#17A2B8 !important;
+margin-top: 30px;
+}
+button:hover{background-color: #17A2B8 !important;
+color: white !important;
+}
+h6{
+    margin-top: 20px;
+}
+::placeholder{color: white !important;}
+.parent2{display: none;}
+input{color: white !important;}
+#message1{display: none;}
+#message2{display: none;}
+#message3{display: none;}

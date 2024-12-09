@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container"><div class="parent shadow-lg p-5 mt-5 w-75 text-center m-auto" id="login-page"><h1 class="p-3">Smart Login System</h1>
+        <label for="email-input"></label>
+        <input id="email-input" class="w-100 form-control" type="text" placeholder=" Enter Your Email">
+        <label for="Password-input"></label>
+        <input id="Password-input" class="w-100 form-control mt-3" type="text" placeholder="Enter Your Password">
+        <button id="signinbutton" class="btn w-100">Login</button>
+    <h6>Don’t have an account? <a id="L-signup" class="text-decoration-none" href="#">sign up</a></h6>   
+    </div></div>
+    
+<div class="parent2 shadow-lg p-5 mt-5 w-75 text-center m-auto" id="signup-page"><h1 class="p-3">Smart Login System</h1>
+    <label class="float-end " for="signupNameInput"><h6 id="message1" class=" text-danger float-end">Name must be at least 4 chars </h6>
+    </label>
+    <input id="signupNameInput" class="w-100 mb-3 form-control" type="text" placeholder=" Enter Your Name">
+    
+    <label class="float-end " for="signupEmailInput"><h6 id="message2" class=" text-danger float-end">Email must be valid one EX:abcd@yahoo.com </h6>
+    </label>
+    <input id="signupEmailInput" class="w-100 form-control" type="text" placeholder=" Enter Your Email">
+    <label class="float-end" for="signupPaswwordInput"> <h6 id="message3" class=" text-danger float-end">password must has 6 chars or nums at least no symbols </h6>
+    </label>
+    <input id="signupPaswwordInput" class="w-100 form-control mt-3" type="text" placeholder="Enter Your Password">
+    <button type="submit"  id="signupbutton" class="btn w-100">Sign Up</button>
+<h6>You have an account? <a id="u-signin" class="text-decoration-none" href="#">sign In</a></h6>   
+</div>
+
+<div id="home-page">
+    <nav class="navbar navbar-expand-lg shadow-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Smart Login</a>
+          <button class="navbar-toggler mt-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button id="logout" class="btn mt-auto w-100">Log Out</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="welcome" class="parent3 d-flex justify-content-center align-items-center  ">
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
